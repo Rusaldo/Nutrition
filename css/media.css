@@ -1,0 +1,76 @@
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 9.5px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 8.5px;
+  }
+  .header {
+    background: none;
+  }
+  .logo__img {
+    height: 50px;
+  }
+  .main-nav {
+    padding: 1.5rem;
+  }
+  .header__hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero__text {
+    margin: 3rem 0;
+  }
+  .hero__heading {
+    padding: 0;
+  }
+  .hero__heading:before {
+    width: 80%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 3px;
+    bottom: -2rem;
+  }
+  .hero__para {
+    margin: 4rem 0;
+  }
+  .hero__links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .hero__pic {
+    width: 80%;
+  }
+  .hero__play-video {
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 480x) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 7.5px;
+  }
+}
