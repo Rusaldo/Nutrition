@@ -1,0 +1,19 @@
+/*------------COMMON STYLES------------*/
+html {
+  height: 100%;
+  font-size: 10px;
+}
+
+body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  background-color: #fafcfc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1;
+  color: #333740;
+}
