@@ -2,6 +2,13 @@
   html {
     font-size: 9.5px;
   }
+  .stats__pic {
+    display: none;
+  }
+  .stats__list {
+    margin: 0 auto;
+    padding: 0 5%;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -66,9 +73,21 @@
   }
 }
 
-@media screen and (max-width: 480x) {
+@media screen and (max-width: 480px) {
   html {
     font-size: 8px;
+  }
+  .stats__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .stats__stat:not(:last-child) {
+    margin-bottom: 5rem;
   }
 }
 

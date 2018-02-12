@@ -3,6 +3,13 @@
   html {
     font-size: 9.5px;
   }
+  .stats__pic {
+    display: none;
+  }
+  .stats__list {
+    margin: 0 auto;
+    padding: 0 5%;
+  }
 
 }
 @media screen and (max-width: 992px) {
@@ -61,10 +68,17 @@
   }
 
 }
-@media screen and (max-width: 480x) {
+@media screen and (max-width: 480px) {
 
   html {
     font-size: 8px;
+  }
+  .stats__list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .stats__stat:not(:last-child) {
+    margin-bottom: 5rem;
   }
 
 }

@@ -238,7 +238,55 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 100%;
   margin-top: 2rem;
 }
-/*------------COMMON STYLES------------*/
+/*----------------STATS----------------*/
+.stats {
+  padding: 11rem 0;
+  background-color: #21172b;
+  color: $white;
+  position: relative;
+}
+.stats__pic {
+  position: absolute;
+  left: 4%;
+  top: -70px;
+  z-index: 1;
+}
+.stats__list {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  max-width: 750px;
+  padding-right: 5%;
+}
+.stats__stat {
+  z-index: 2;
+  width: 150px;
+}
+.stat__number {
+  font-size: 7.2rem;
+  padding-left: 2rem;
+  position: relative;
+  display: block;
+  line-height: 1;
+  margin-bottom: 2rem;
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: .7rem;
+    width: 5px;
+    height: 90%;
+    background-color: $blue;
+  }
+}
+.stat__small {
+  strong {
+    display: block;
+    color: $blue;
+    text-transform: uppercase;
+  }
+}
 /*------------COMMON STYLES------------*/
 /*------------COMMON STYLES------------*/
 /*------------COMMON STYLES------------*/
